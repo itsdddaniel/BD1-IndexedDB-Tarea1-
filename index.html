@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "Author" content = "Daniel Arteaga">
+        <meta name = "Clase" content = "Base de Datos I">
+        <meta name = "Maestro" content = "Ingeniero Jose Inestroza">
+        <meta name = "Periodo" content = "I PAC 2021">
+        <link rel="stylesheet" type="text/css" href="styles/indexStyle.css">
+        <title>IndexDB</title>
+    </head>
+    <body>
+
+        <div class='container'>            
+            <div class="containerClass" id="firstDivID" name="firstDivName">
+                
+                <div>
+
+                    <h1 class="h1Class" id="h1ID" name="h1Title">Tabla #2</h1>
+                    <select multiple class="firstSelectClass generalSelect" id = "firstSelectID" name = "firstSelectName" size = "7">
+                        
+                    </select>
+                </div>
+                
+                <div class="buttonContainerClass" id="secondDivID" name="secondDivName">
+                    <button class="firstButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="moveOne">></button>
+                    <button class="secondButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="moveTwo"><</button>
+                    <button class="thirdButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="moveAllOne">>></button>
+                    <button class="fourthButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="moveAllTwo"><<</button>
+                    <button class="fifthButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="delete">Eliminar</button>
+                    <button class="sixthButtonClass button-style" id="buttonID" onclick="buttonClicked(this.value)" type="button" value="clear">Limpiar</button>
+                </div>
+                
+                <div>
+
+                    <h1 class="h2Class" id="h2ID" name="h2Title">Tabla #1</h1>
+                    <select multiple class="secondSelectClass generalSelect" id = "secondSelectID" name = "secondSelectName" size = "7">
+                        
+                    </select>
+                </div>
+                
+            </div>
+        
+            <div class="inputContainerClass" id="thirdDivID" name="thirdDivName">
+                <input class="input-style" type="text" id="inputID" placeholder="Ingrese un texto...">
+            </div>
+        </div>
+
+        <script src="scripts/script.js"></script>
+
+    </body>
+</html>
